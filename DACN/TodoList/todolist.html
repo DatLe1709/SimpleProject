@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio controls autoplay loop preload>
+        <source src="audio\lofi-study-112191.mp3" type="audio/mp3">
+       
+    </audio>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="images/icon.png" alt="todoIcon" ></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Viết những gì bạn muốn làm">
+                <button onclick="addTask()">Thêm</button>
+            </div>
+            <ul id="list-container">
+                <!--<li class="checked">Task 1</li>
+                <li>Task 1</li>
+                <li>Task 1</li> -->
+            </ul>
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script> 
+</body>
